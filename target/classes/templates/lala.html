@@ -1,0 +1,37 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <title>Darbuotoju Portalas</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link type="text/css" rel="stylesheet" href="../static/css/style.css" th:href="@{/css/style.css}">
+    </head>
+
+    <body id="body-login">
+        <div class="container">
+            <section>
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <img id="login-image" th:src="@{/images/logo.svg}" align="center" class="img-responsive" alt="Responsive image">
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+                <div id="form-row" class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <form class="form-signin" th:action="@{/naujienos}">
+                            <input type="user_name" id="inputUserName" class="form-control" placeholder="Portalo vardas" required autofocus>
+                            <input type="password" id="inputPassword" class="form-control" placeholder="Slaptažodis" required>
+                            <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Prisijungti</button>
+                        </form>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </section>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,42 @@
+
+/* login css */
+#body-login {
+padding-top: 100px;
+}
+
+#login-image {
+width: 100%;
+}
+
+
+/* main css */
+#main-page {
+padding-top: 50px;
+}
+#form-row {
+padding-top:50px;
+}
+
+#main-image {
+width: 80%;
+}
+#nav-bar-buttons {
+border-radius: 25px;
+border: 3px solid;
+}
+.row-vertical {
+display: flex;
+align-items: center;
+}
+p {
+padding-top: 5px;
+}
+
+.btn-default, .btn-default:hover, .btn-default:active, .btn-default:visited {
+    background-color: #c7280f !important;
+}
+
+#main-section {
+margin-top: 20px;
+margin-bottom: 20px;
+}

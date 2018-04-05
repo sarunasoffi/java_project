@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Naujienos</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link type="text/css" rel="stylesheet" href="../static/css/style.css" th:href="@{/css/style.css}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body id="main-page">
+
+        <div class="container">
+            <section>
+                <div class="row">
+                    <div class="col-md-3 text-center">
+                        <img id="main-image" th:src="@{/images/logo.svg}" class="img-static" alt="Static image">
+                    </div>
+                    <div id="nav-bar-buttons" class="col-md-9">
+                        <div class="row row-vertical">
+                            <div class="col-md-3 text-center">
+                                <a class="btn btn-default" th:href="@{/lala}"><b>Naujienos</b></a>
+                            </div>
+                            <div class="col-md-3 text-center">
+                                <a class="btn btn-default" th:href="@{/lala}"><b>Darbuotojų sąrašas</b></a>
+                            </div>
+                            <div class="col-md-3 text-center">
+                                <a class="btn btn-default" th:href="@{/lala}"><b>Konferencijos</b></a>
+                            </div>
+                            <div class="col-md-3 text-center">
+                                <p>
+                                    <span class="glyphicon glyphicon-user"></span><b>Sveiki, default!</b>
+                                    <div class="dropdown">
+                                        <button class="btn btn-default btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <b>Mano Profilis</b>
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </div>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="main-section" class="container">
+            <section>
+                <div class="row well">
+                    <div class="col-md-12">
+                        <p>Some SHIT</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <div class="container text-center">
+                <hr>
+                <p><b>Kūrėjas: Šarūnas Šliogeris</b></p>
+                <p><b>Projektas kurtas Kaunas Coding School "Java Bootcamp", kaip baigiamasis projektas</b></p>
+                <p><b>Panaudoti įrankiai/metodai: Java OOP, Maven, Spring Framework, JDBC.</b></p>
+                <hr>
+            </div>
+        </footer>
+    </body>
+</html>

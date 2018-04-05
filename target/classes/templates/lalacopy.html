@@ -1,0 +1,40 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Index</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+
+<div class="container">
+    <h1>PIRMA UZDUOTIS</h1>
+    <ul class="list-group">
+        <li class="list-group-item"><a th:href="@{/students}">Studentų lentelė</a></li>
+        <li class="list-group-item"><a th:href="@{/student_address}">Studentų adresai</a></li>
+        <li class="list-group-item"><a th:href="@{/student_marks}">Studentų pažymiai</a></li>
+    </ul>
+</div>
+<div class="container">
+    <h1>SQL UZDUOTYS</h1>
+    <ul class="list-group">
+        <li class="list-group-item"><a th:href="@{/uzduotis16}">1.6 SELECT visus studentus ir surikiuokite pagal studento vardą nuo A iki Z</a></li>
+        <li class="list-group-item"><a th:href="@{/uzduotis17}">1.7 SELECT studentus kurių vardai ir pavardės baigėsi ‚as‘, surikiuokite rezultatus nuo Z iki A spagal pavardes</a></li>
+        <li class="list-group-item"><a th:href="@{/uzduotis18}">1.8 SELECT studentu adresus kurie gyvena Kaune</a></li>
+        <li class="list-group-item"><a th:href="@{/uzduotis19}">1.9 SELECT studentų adresus kuriu pašto kodas ne NULL</a></li>
+        <li class="list-group-item"><a th:href="@{/uzduotis110}">1.10 SELECT studentų pažymius surikiuokite nuo didžiausio iki mažiausio</a></li>
+        <li class="list-group-item"><a th:href="@{/uzduotis111}">1.11 Suskaičiuokite kiek studentų gavo maksimalų ivertinimą. Naudokite count(*)</a></li>
+        <li class="list-group-item"><a th:href="@{/uzduotis112}">1.12 SELECT studentu pažymius kurie didesnis nei 6</a></li>
+        <li class="list-group-item"><a th:href="@{/uzduotis113}">1.13 UPDATE student_address lentelę street stulpelį, kurie gyvena Vilniuje ir Kaune panaudokite IN</a></li>
+        <li class="list-group-item"><a th:href="@{/uzduotis114}">1.14 SELECT studentus ir jų adresus panaudojant LEFT JOIN rezultatus surikiuoti pagal vardus</a></li>
+        <li class="list-group-item"><a th:href="@{/uzduotis115}">1.15 SELECT studentus ir jų pažymius panaudojant RIGHT JOIN surikiuokite studentus pagal pazymius</a></li>
+        <li class="list-group-item"><a th:href="@{/uzduotis116}">1.16 SELECT studentus ju adresus ir pažymius panaudojant INNER JOIN, studentai kurie gyvena Kaune ir ju pavardes baigesi “as”</a></li>
+        <li class="list-group-item"><a th:href="@{/prideti}">INSERT STUDENTA</a></li>
+        <li class="list-group-item"><a th:href="@{/prideti}">EDIT STUDENTA</a></li>
+        <li class="list-group-item"><a th:href="@{/prideti}">TRINTI STUDENTA</a></li>
+    </ul>
+</div>
+
+</body>
+</html>
