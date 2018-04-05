@@ -22,25 +22,25 @@
                     <div id="nav-bar-buttons" class="col-md-9">
                         <div class="row row-vertical">
                             <div class="col-md-3 text-center">
-                                <a class="btn btn-default" th:href="@{/lala}"><b>Naujienos</b></a>
+                                <a class="btn btn-primary" th:href="@{/naujienos}"><b>Naujienos</b></a>
                             </div>
                             <div class="col-md-3 text-center">
-                                <a class="btn btn-default" th:href="@{/lala}"><b>Darbuotojų sąrašas</b></a>
+                                <a class="btn btn-primary" th:href="@{/employee_list}"><b>Darbuotojų sąrašas</b></a>
                             </div>
                             <div class="col-md-3 text-center">
-                                <a class="btn btn-default" th:href="@{/lala}"><b>Konferencijos</b></a>
+                                <a class="btn btn-primary" th:href="@{/conferences}"><b>Konferencijos</b></a>
                             </div>
                             <div class="col-md-3 text-center">
                                 <p>
                                     <span class="glyphicon glyphicon-user"></span><b>Sveiki, default!</b>
                                     <div class="dropdown">
-                                        <button class="btn btn-default btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <button class="btn btn-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             <b>Mano Profilis</b>
                                         </button>
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <a class="dropdown-item" href="#">Something else here</a>
+                                            <a class="dropdown-item" href="#">Informacija</a>
+                                            <a class="dropdown-item" th:href="@{/}">Atsijungti</a>
+                                            <a class="dropdown-item" th:href="@{/admin}">Admin puslapis</a>
                                         </div>
                                     </div>
                                 </p>
@@ -55,8 +55,36 @@
         <div id="main-section" class="container">
             <section>
                 <div class="row well">
-                    <div class="col-md-12">
-                        <p>Some SHIT</p>
+                    <div class="col-md-4">
+                        <h4>Naujiena! Bla, bla, bla, įmonės vakarėlis!</h4>
+                    </div>
+                    <div class="col-md-8">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+                            Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate,
+                            felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                            Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes,
+                            nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan... <b>Skaityti toliau...</b></p>
+                    </div>
+                </div>
+                <div class="row well">
+                    <div class="col-md-4">
+                        <h4>Įmonė plečia veiklą!</h4>
+                    </div>
+                    <div class="col-md-8">
+                        <p>Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+                            Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate,
+                            felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget. Lorem ipsum dolor sit amet, consectetur... <b>Skaityti toliau...</b></p>
+                    </div>
+                </div>
+                <div class="row well">
+                    <div class="col-md-4">
+                        <h4>Pasirašytas projektas! "Neduok Dieve" aplikacijos įdėjos pristatymas!</h4>
+                    </div>
+                    <div class="col-md-8">
+                        <p>Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes,
+                            nascetur ridiculus mus. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+                            Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate,
+                            felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget. Lorem ipsum dolor sit amet, consectetur... <b>Skaityti toliau...</b></p>
                     </div>
                 </div>
             </section>
@@ -67,7 +95,7 @@
                 <hr>
                 <p><b>Kūrėjas: Šarūnas Šliogeris</b></p>
                 <p><b>Projektas kurtas Kaunas Coding School "Java Bootcamp", kaip baigiamasis projektas</b></p>
-                <p><b>Panaudoti įrankiai/metodai: Java OOP, Maven, Spring Framework, JDBC.</b></p>
+                <p><b>Panaudoti įrankiai/metodai: Java OOP, Maven, MySQL, Spring Framework, JDBC.</b></p>
                 <hr>
             </div>
         </footer>

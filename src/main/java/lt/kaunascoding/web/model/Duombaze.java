@@ -18,7 +18,7 @@ public class Duombaze {
             e.printStackTrace();
         }
         try {
-            _con = DriverManager.getConnection("jdbc:mysql://192.168.100.100:3306/KCS", "root", "root");
+            _con = DriverManager.getConnection("jdbc:mysql://192.168.100.100:3306/employee_web_app", "root", "root");
             _st = _con.createStatement();
         } catch (SQLException e) {
             e.printStackTrace();
@@ -26,13 +26,13 @@ public class Duombaze {
     }
 
 
-    public List<Student> getAllStudents() {
-        List<Student> result = new ArrayList<Student>();
+    public List<EmployeeList> getAllUsers() {
+        List<EmployeeList> result = new ArrayList<EmployeeList>();
         try {
             _st = _con.createStatement();
-            ResultSet set = _st.executeQuery("SELECT * FROM `students`");
+            ResultSet set = _st.executeQuery("SELECT * FROM `users`");
             while (set.next()) {
-                result.add(new Student(set));
+                result.add(new EmployeeList(set));
             }
         } catch (SQLException e) {
             e.printStackTrace();

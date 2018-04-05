@@ -12,23 +12,6 @@ public class IndexController {
 
     @RequestMapping("/")
     String lala(Model model) {
-        model.addAttribute("labas", "Veikiu!!!!");
-
-        ArrayList<String> sarasas =   new ArrayList<>();
-
-        sarasas.add("AAA");
-        sarasas.add("AAA");
-        sarasas.add("AAA");
-        sarasas.add("AAA");
-        sarasas.add("AAA");
-        sarasas.add("AAA");
-        sarasas.add("AAA");
-        sarasas.add("AAA");
-        sarasas.add("AAA");
-        sarasas.add("AAA");
-        sarasas.add("AAA");
-
-        model.addAttribute("list", sarasas);
 
         return "lala";
     }

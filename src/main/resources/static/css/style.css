@@ -32,11 +32,16 @@ p {
 padding-top: 5px;
 }
 
-.btn-default, .btn-default:hover, .btn-default:active, .btn-default:visited {
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: #c7280f !important;
+    color: black !important;
 }
 
 #main-section {
 margin-top: 20px;
 margin-bottom: 20px;
+}
+.table-font {
+font-weight: bold;
+font-style: italic;
 }

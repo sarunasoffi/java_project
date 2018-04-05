@@ -11,8 +11,6 @@ public class StudentsController {
 
     @RequestMapping("/students")
     String atsakymas(Model model) {
-        Duombaze db = new Duombaze();
-        model.addAttribute("list", db.getAllStudents());
 
         return "students";
     }
