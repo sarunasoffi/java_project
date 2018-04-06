@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
 </head>
 <body id="main-page">
 
@@ -38,7 +40,7 @@
                                 <b>Mano Profilis</b>
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Informacija</a>
+                                <a class="dropdown-item" th:href="@{/profile}">Informacija</a>
                                 <a class="dropdown-item" th:href="@{/}">Atsijungti</a>
                                 <a class="dropdown-item" th:href="@{/admin}">Admin puslapis</a>
                             </div>
@@ -55,8 +57,49 @@
 <div id="main-section" class="container">
     <section>
         <div class="row well">
-            <div class="col-md-12">
-                <p>Some SHIT conferences</p>
+            <div class="col-md-5">
+                <form class="form-conferences">
+                    <label>Artimiausios konferencinos</label>
+                    <div>
+                        <select class="selectpicker" data-width="auto" data-live-search="true">
+                            <option data-tokens="neduok_dieve">Aplikacijos "Neduok Dieve" plėtojimas 2018-04-09</option>
+                            <option data-tokens="susirinkimas0416">Darbuotojų susirinkimas 2018-04-16</option>
+                            <option data-tokens="nemoku_dirbti">Susitikimas su UAB "Nemoku dirbti" 2018-05-01</option>
+                            <option data-tokens="susirinkimas0423">Darbuotojų susirinkimas 2018-04-23</option>
+                        </select>
+                    </div>
+                    &nbsp;
+                    <div>
+                        <button class="btn btn-primary" type="submit">DALYVAUSIU</button>
+                    </div>
+                    &nbsp;
+                    &nbsp;
+                    <p><b>Dalyvių sąrašas:</b></p>
+                    <table class="table table-striped">
+                        <thead>
+                        <td class="table-font">Vardas</td>
+                        <td class="table-font">Pavardė</td>
+                        <td class="table-font">Pozicija</td>
+                        </thead>
+                        <tbody>
+                        <tr th:each="row : ${list}">
+                            <td th:text="${row.name}"></td>
+                            <td th:text="${row.surname}"></td>
+                            <td th:text="${row.position}"></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+            <div class="col-md-7">
+                <div>
+                    <img th:src="@{/images/download.jpg}" class="img-responsive" alt="Static image" style="width:100%;">
+                </div>
+                <h2>Aplikacijos "Neduok Dieve" plėtojimas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+                    Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</p>
+                <p><b>Data: 2018-04-19 / Laikas: 14:20</b></p>
             </div>
         </div>
     </section>

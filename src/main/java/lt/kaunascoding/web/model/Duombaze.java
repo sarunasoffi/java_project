@@ -40,13 +40,13 @@ public class Duombaze {
         return result;
     }
 
-    public List<StudentAddress> getAllStudentAddress() {
-        List<StudentAddress> result = new ArrayList<StudentAddress>();
+    public List<Profile> getAllProfileInfo() {
+        List<Profile> result = new ArrayList<Profile>();
         try {
             _st = _con.createStatement();
-            ResultSet set = _st.executeQuery("SELECT * FROM `student_address`");
+            ResultSet set = _st.executeQuery("SELECT * FROM `users` where `user_name` LIKE 'tautvydas_berzdelis'");
             while (set.next()) {
-                result.add(new StudentAddress(set));
+                result.add(new Profile(set));
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -54,13 +54,13 @@ public class Duombaze {
         return result;
     }
 
-    public List<StudentMarks> getAllStudentMarks() {
-        List<StudentMarks> result = new ArrayList<StudentMarks>();
+    public List<Conferences> getAllConferencesUsers() {
+        List<Conferences> result = new ArrayList<Conferences>();
         try {
             _st = _con.createStatement();
-            ResultSet set = _st.executeQuery("SELECT * FROM `student_marks`");
+            ResultSet set = _st.executeQuery("SELECT `name`, `surname`, `position` FROM `users`");
             while (set.next()) {
-                result.add(new StudentMarks(set));
+                result.add(new Conferences(set));
             }
         } catch (SQLException e) {
             e.printStackTrace();
