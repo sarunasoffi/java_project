@@ -58,7 +58,7 @@ public class Duombaze {
         List<Conferences> result = new ArrayList<Conferences>();
         try {
             _st = _con.createStatement();
-            ResultSet set = _st.executeQuery("SELECT `name`, `surname`, `position` FROM `users`");
+            ResultSet set = _st.executeQuery("SELECT `name`, `surname`, `position`, `a`.`conf_name` FROM `users` INNER JOIN `conferences` AS `a` ON `users`.`id` = `a`.`user_id`");
             while (set.next()) {
                 result.add(new Conferences(set));
             }
@@ -83,6 +83,16 @@ public class Duombaze {
             st.setString(7, inputTerminateDate);
             st.setString(8, inputSalary);
             st.setString(9, inputPassword);
+            st.execute();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void insertDalyvis(String conf1) {
+        try {
+            PreparedStatement st = _con.prepareStatement("INSERT INTO `employee_web_app`.`conferences` (`id`, `user_id`, `conf_name`, `conf_text`) VALUES (NULL, '1', ?, '')");
+            st.setString(1, conf1);
             st.execute();
         } catch (SQLException e) {
             e.printStackTrace();

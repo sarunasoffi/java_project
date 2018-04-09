@@ -60,34 +60,39 @@
     <section>
         <div class="row well">
             <div class="col-md-5">
-                <form class="form-conferences">
                     <label>Artimiausios konferencinos</label>
-                    <div>
-                        <select id="switch-case" class="selectpicker" data-width="auto" data-live-search="true">
-                            <option data-tokens="neduok_dieve" value="opt1">Aplikacijos "Neduok Dieve" plėtojimas 2018-04-09</option>
-                            <option data-tokens="susirinkimas0416" value="opt2">Darbuotojų susirinkimas 2018-04-16</option>
-                            <option data-tokens="nemoku_dirbti" value="opt3">Susitikimas su UAB "Nemoku dirbti" 2018-05-01</option>
-                            <option data-tokens="susirinkimas0423" value="opt4">Darbuotojų susirinkimas 2018-04-23</option>
+
+                    <form method="POST" action="#" th:action="@{/conferences}">
+                        <div>
+                        <select id="switch-case" class="selectpicker" data-width="auto" data-live-search="true" name="conf1">
+                            <option data-tokens="neduok_dieve" value="Aplikacijos Neduok Dieve plėtojimas 2018-04-09" id="1">Aplikacijos "Neduok Dieve" plėtojimas 2018-04-09</option>
+                            <option data-tokens="susirinkimas0416" value="Darbuotojų susirinkimas 2018-04-16" id="2">Darbuotojų susirinkimas 2018-04-16</option>
+                            <option data-tokens="nemoku_dirbti" value="Susitikimas su UAB Nemoku dirbti 2018-05-01" id="3">Susitikimas su UAB "Nemoku dirbti" 2018-05-01</option>
+                            <option data-tokens="susirinkimas0423" value="Darbuotojų susirinkimas 2018-04-23" id="4">Darbuotojų susirinkimas 2018-04-23</option>
                         </select>
-                    </div>
+                        </div>
+                        &nbsp;
+                        <div>
+                            <button class="btn btn-primary" type="submit">DALYVAUSIU</button>
+                        </div>
+                    </form>
                     &nbsp;
-                    <div>
-                        <button class="btn btn-primary" type="submit">DALYVAUSIU</button>
-                    </div>
                     &nbsp;
-                    &nbsp;
+                <form class="form-conferences">
                     <p><b>Dalyvių sąrašas:</b></p>
                     <table class="table table-striped">
                         <thead>
                         <td class="table-font">Vardas</td>
                         <td class="table-font">Pavardė</td>
                         <td class="table-font">Pozicija</td>
+                        <td class="table-font">Conferencija</td>
                         </thead>
                         <tbody>
                         <tr th:each="row : ${list}">
                             <td th:text="${row.name}"></td>
                             <td th:text="${row.surname}"></td>
                             <td th:text="${row.position}"></td>
+                            <td th:text="${row.conf_name}"></td>
                         </tr>
                         </tbody>
                     </table>
@@ -120,14 +125,22 @@
 <script lang="javascript">
     $('#switch-case').change(function() {
     var opt = $(this).val();
-    if (opt=="opt1") {
-        $('#msgbox').html('<h2>Aplikacijos -Neduok dieve- plėtojimas</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elite</p>');
-    }else if (opt == "opt2") {
-        $('#msgbox').html('<h2>Darbuotojų susirinkimas 2018-04-16</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elite. Lalala buk darbe.</p>');
-    }else if (opt == "opt3") {
-        $('#msgbox').html('<h2>Susitikimas su UAB -Nemoku dirbti-</h2><p>Bukite pasveikinti.</p>');
-    }else if (opt == "opt4") {
-        $('#msgbox').html('<h2>Darbuotojų susirinkimas 2018-04-23</h2><p>Supratau.</p>');
+    if (opt=="Aplikacijos Neduok Dieve plėtojimas 2018-04-09") {
+
+        $('#msgbox').html('<h2>Aplikacijos NEDUOK DIEVE plėtojimas</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elite. Lorem ipsum dolor sit amet, consectetur adipiscing elite</p>');
+
+    }else if (opt == "Darbuotojų susirinkimas 2018-04-16") {
+
+        $('#msgbox').html('<h2>Darbuotojų susirinkimas 2018-04-16</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elite. Lalala buk darbe. Lorem ipsum dolor sit amet, consectetur adipiscing elite. Lalala buk darbe. Lorem ipsum dolor sit amet, consectetur adipiscing elite.</p>');
+
+    }else if (opt == "Susitikimas su UAB Nemoku dirbti 2018-05-01") {
+
+        $('#msgbox').html('<h2>Susitikimas su UAB NEMOKU DIRBTI</h2><p>Bukite pasveikinti. Linkėjimai iš Šiaulių. Jūs to teksto net nepastebėjote. Kažkokią nesąmonę užrašiau ir svarbu tekstas. Bukite pasveikinti. Linkėjimai iš Šiaulių. Jūs to teksto net nepastebėjote. Kažkokią nesąmonę užrašiau ir svarbu tekstas.</p>');
+
+    }else if (opt == "Darbuotojų susirinkimas 2018-04-23") {
+
+        $('#msgbox').html('<h2>Darbuotojų susirinkimas 2018-04-23</h2><p>Supratau aš biški. Galiausiai veikia, bijau ką pakeisti, bu kitaip galiu prisidirbti.Supratau aš biški. Galiausiai veikia, bijau ką pakeisti, bu kitaip galiu prisidirbti.Supratau aš biški. Galiausiai veikia, bijau ką pakeisti, bu kitaip galiu prisidirbti.</p>');
+
     }
 });
 </script>
