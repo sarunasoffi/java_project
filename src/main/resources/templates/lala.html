@@ -22,9 +22,16 @@
                 <div id="form-row" class="row">
                     <div class="col-md-3"></div>
                     <div class="col-md-6">
-                        <form class="form-signin" th:action="@{/naujienos}">
-                            <input type="user_name" id="inputUserName" class="form-control" placeholder="Portalo vardas" required autofocus>
-                            <input type="password" id="inputPassword" class="form-control" placeholder="Slaptažodis" required>
+
+                        <form class="form-signin" th:action="@{/lala}" method="post">
+                            <div th:if="${param.error}">
+                                Blogai įvestas portalo vardas arba slaptažodis.
+                            </div>
+                            <div th:if="${param.logout}">
+                                Jūs buvote atjungtas.
+                            </div>
+                            <input type="text" name="username" class="form-control" placeholder="Portalo vardas" required autofocus>
+                            <input type="password" name="password" class="form-control" placeholder="Slaptažodis" required>
                             <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Prisijungti</button>
                         </form>
                     </div>

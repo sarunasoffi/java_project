@@ -3,6 +3,93 @@
   <component name="ChangeListManager">
     <list default="true" id="25abc9f4-cae1-4cb9-bd1e-1914d0657059" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/springiukas.iml" afterPath="$PROJECT_DIR$/springiukas.iml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/AdminController.java" afterPath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/AdminController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/IndexController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/Uzduotis110Controller.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/Uzduotis111Controller.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/Uzduotis112Controller.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/Uzduotis113Controller.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/Uzduotis114Controller.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/Uzduotis115Controller.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/Uzduotis116Controller.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/Uzduotis16Controller.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/Uzduotis17Controller.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/Uzduotis18Controller.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/Uzduotis19Controller.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/Duombaze.java" afterPath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/Duombaze.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/tables/Uzduotis110.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/tables/Uzduotis111.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/tables/Uzduotis112.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/tables/Uzduotis113.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/tables/Uzduotis114.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/tables/Uzduotis115.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/tables/Uzduotis116.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/tables/Uzduotis16.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/tables/Uzduotis17.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/tables/Uzduotis18.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/tables/Uzduotis19.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/conferences.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/conferences.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/employee_list.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/employee_list.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/lala.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/lala.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/naujienos.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/naujienos.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/profile.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/uzduotis110.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/uzduotis111.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/uzduotis112.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/uzduotis113.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/uzduotis114.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/uzduotis115.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/uzduotis116.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/uzduotis16.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/uzduotis17.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/uzduotis18.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/uzduotis19.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/controller/AdminController.class" afterPath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/controller/AdminController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/controller/IndexController.class" afterPath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/controller/IndexController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/controller/Uzduotis110Controller.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/controller/Uzduotis111Controller.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/controller/Uzduotis112Controller.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/controller/Uzduotis113Controller.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/controller/Uzduotis114Controller.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/controller/Uzduotis115Controller.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/controller/Uzduotis116Controller.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/controller/Uzduotis16Controller.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/controller/Uzduotis17Controller.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/controller/Uzduotis18Controller.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/controller/Uzduotis19Controller.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/model/Duombaze.class" afterPath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/model/Duombaze.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/model/tables/Uzduotis110.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/model/tables/Uzduotis111.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/model/tables/Uzduotis112.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/model/tables/Uzduotis113.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/model/tables/Uzduotis114.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/model/tables/Uzduotis115.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/model/tables/Uzduotis116.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/model/tables/Uzduotis16.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/model/tables/Uzduotis17.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/model/tables/Uzduotis18.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/kaunascoding/web/model/tables/Uzduotis19.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin.html" afterPath="$PROJECT_DIR$/target/classes/templates/admin.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/conferences.html" afterPath="$PROJECT_DIR$/target/classes/templates/conferences.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/employee_list.html" afterPath="$PROJECT_DIR$/target/classes/templates/employee_list.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/lala.html" afterPath="$PROJECT_DIR$/target/classes/templates/lala.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/naujienos.html" afterPath="$PROJECT_DIR$/target/classes/templates/naujienos.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/profile.html" afterPath="$PROJECT_DIR$/target/classes/templates/profile.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/uzduotis110.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/uzduotis111.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/uzduotis112.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/uzduotis113.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/uzduotis114.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/uzduotis115.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/uzduotis116.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/uzduotis16.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/uzduotis17.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/uzduotis18.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/uzduotis19.html" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,58 +110,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lala.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/lala.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="conferences.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/conferences.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1802">
-              <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="147">
+              <caret line="36" column="123" lean-forward="false" selection-start-line="36" selection-start-column="123" selection-end-line="36" selection-end-column="123" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Duombaze.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/Duombaze.java">
+      <file leaf-file-name="employee_list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/employee_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="20" column="63" lean-forward="false" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
-              <folding>
-                <element signature="e#766#780#0" expanded="true" />
-                <element signature="e#1208#1217#0" expanded="true" />
-                <element signature="e#1698#1711#0" expanded="true" />
-                <element signature="e#2171#2183#0" expanded="true" />
-                <element signature="e#2637#2649#0" expanded="true" />
-                <element signature="e#3156#3168#0" expanded="true" />
-                <element signature="e#3636#3648#0" expanded="true" />
-                <element signature="e#4122#4135#0" expanded="true" />
-                <element signature="e#4985#4998#0" expanded="true" />
-                <element signature="e#5458#5471#0" expanded="true" />
-                <element signature="e#6055#6068#0" expanded="true" />
-                <element signature="e#6876#6889#0" expanded="true" />
-                <element signature="e#7681#7694#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="34" column="123" lean-forward="false" selection-start-line="34" selection-start-column="123" selection-end-line="34" selection-end-column="123" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="naujienos.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/naujienos.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="34" column="131" lean-forward="false" selection-start-line="34" selection-start-column="93" selection-end-line="34" selection-end-column="131" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="34" column="127" lean-forward="false" selection-start-line="34" selection-start-column="127" selection-end-line="34" selection-end-column="127" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="36" column="123" lean-forward="false" selection-start-line="36" selection-start-column="123" selection-end-line="36" selection-end-column="123" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConferencesController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/ConferencesController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,8 +173,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            <state relative-caret-position="477">
+              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,6 +190,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>path</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -110,10 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/tables/Uzduotis113.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/tables/Uzduotis114.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/Uzduotis114Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/uzduotis111.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/student_address.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/uzduotis18.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/uzduotis19.html" />
@@ -140,27 +232,31 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/students.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/lalacopy.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/ss.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/lala.html" />
         <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/tables/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/NaujienosController.java" />
         <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/tables/EmployeeList.java" />
         <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/EmployeeListController.java" />
         <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/StudentsController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/employee_list.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/naujienos.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin.html" />
         <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/tables/Profile.java" />
         <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/ProfileController.java" />
         <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/StudentAddressController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/profile.html" />
         <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/tables/Conferences.java" />
         <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/ConferencesController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/Duombaze.java" />
         <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/StudentMarksController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/MvcConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/lala.html" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/naujienos.html" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/LalaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/Duombaze.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/conferences.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/employee_list.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/profile.html" />
       </list>
     </option>
   </component>
@@ -170,6 +266,17 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springiukas" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="310" />
@@ -193,8 +300,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,8 +410,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,12 +418,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../loginexample" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\Java programavimo kursai 2018-03-12\springiukas\src\main\resources\templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="B:\Java programavimo kursai 2018-03-12\springiukas\src\main\resources\static\images" />
       <recent name="B:\Java programavimo kursai 2018-03-12\springiukas\src\main\resources\images" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="B:\Java programavimo kursai 2018-03-12\springiukas\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -460,28 +567,28 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28967813" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28967813" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19936034" sideWeight="0.49611542" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20149253" sideWeight="0.49611542" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25749168" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50388455" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -491,30 +598,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/uzduotis111.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/uzduotis112.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/uzduotis117.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/uzduotis118.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/uzduotis119.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/uzduotis120.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/uzduotis121.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/uzduotis122.html" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/uzduotis123.html" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/student_marks.html" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/Uzduotis114Controller.java">
@@ -536,9 +625,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -546,9 +633,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -581,28 +666,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/ss.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/student_address.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/Uzduotis18Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -652,18 +716,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/StudentsController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/NaujienosController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="39" lean-forward="true" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/tables/Profile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -677,48 +732,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/ProfileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/StudentAddressController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="55" lean-forward="true" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/naujienos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="40" column="72" lean-forward="false" selection-start-line="40" selection-start-column="72" selection-end-line="40" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="130" column="77" lean-forward="true" selection-start-line="130" selection-start-column="77" selection-end-line="130" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/ConferencesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="64" lean-forward="false" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/tables/Conferences.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -740,66 +754,195 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/StudentMarksController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/style.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        <state relative-caret-position="255">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/employee_list.html">
+    <entry file="file://$PROJECT_DIR$/springiukas.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="80" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/lala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/conferences.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="266">
+          <caret line="40" column="43" lean-forward="false" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.3.RELEASE/spring-security-config-5.0.3.RELEASE.jar!/org/springframework/security/config/annotation/web/AbstractRequestMatcherRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="106" column="92" lean-forward="false" selection-start-line="106" selection-start-column="92" selection-end-line="106" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="e#556#557#0" expanded="false" />
+            <element signature="e#586#587#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/lala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="53" lean-forward="false" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="61" lean-forward="false" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/LalaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="103" column="14" lean-forward="false" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/ProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/tables/Profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/model/Duombaze.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="20" column="63" lean-forward="false" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
-          <folding>
-            <element signature="e#766#780#0" expanded="true" />
-            <element signature="e#1208#1217#0" expanded="true" />
-            <element signature="e#1698#1711#0" expanded="true" />
-            <element signature="e#2171#2183#0" expanded="true" />
-            <element signature="e#2637#2649#0" expanded="true" />
-            <element signature="e#3156#3168#0" expanded="true" />
-            <element signature="e#3636#3648#0" expanded="true" />
-            <element signature="e#4122#4135#0" expanded="true" />
-            <element signature="e#4985#4998#0" expanded="true" />
-            <element signature="e#5458#5471#0" expanded="true" />
-            <element signature="e#6055#6068#0" expanded="true" />
-            <element signature="e#6876#6889#0" expanded="true" />
-            <element signature="e#7681#7694#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="79">
+          <caret line="46" column="97" lean-forward="false" selection-start-line="46" selection-start-column="97" selection-end-line="46" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/kaunascoding/web/controller/ConferencesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="36" column="123" lean-forward="false" selection-start-line="36" selection-start-column="123" selection-end-line="36" selection-end-column="123" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/employee_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="123" lean-forward="false" selection-start-line="34" selection-start-column="123" selection-end-line="34" selection-end-column="123" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/first.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="80" lean-forward="true" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/conferences.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="36" column="123" lean-forward="false" selection-start-line="36" selection-start-column="123" selection-end-line="36" selection-end-column="123" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/naujienos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="34" column="131" lean-forward="false" selection-start-line="34" selection-start-column="93" selection-end-line="34" selection-end-column="131" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="34" column="127" lean-forward="false" selection-start-line="34" selection-start-column="127" selection-end-line="34" selection-end-column="127" />
+          <folding />
         </state>
       </provider>
     </entry>

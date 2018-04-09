@@ -34,15 +34,17 @@
                     </div>
                     <div class="col-md-3 text-center">
                         <p>
-                            <span class="glyphicon glyphicon-user"></span><b>Sveiki, default!</b>
+                            <span class="glyphicon glyphicon-user"></span><b>Sveiki, [[${#httpServletRequest.remoteUser}]]!</b>
                         <div class="dropdown">
                             <button class="btn btn-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <b>Mano Profilis</b>
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" th:href="@{/profile}">Informacija</a>
-                                <a class="dropdown-item" th:href="@{/}">Atsijungti</a>
                                 <a class="dropdown-item" th:href="@{/admin}">Admin puslapis</a>
+                                <form th:action="@{/logout}" method="post">
+                                    <a class="dropdown-item"><input type="submit" value="Atsijungti"/></a>
+                                </form>
                             </div>
                         </div>
                         </p>
@@ -57,78 +59,40 @@
 <div id="main-section" class="container">
     <section>
         <div class="row well">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <h2 class="text-center">Naujo darbuotojo įvedimas</h2><hr>
-                <form class="form-insert">
+                <form class="form-insert" method="POST" action="#" th:action="@{/admin}">
 
                     <label for="inputUserName">Portalo vardas</label>
-                    <input type="text" id="inputUserName" class="form-control" placeholder="Darbuotojo portalo vardas" required autofocus>
+                    <input type="text" id="inputUserName" class="form-control" placeholder="Darbuotojo portalo vardas" name="inputUserName" required autofocus>
 
                     <label for="inputName">Vardas</label>
-                    <input type="text" id="inputName" class="form-control" placeholder="Darbuotojo vardas" required>
+                    <input type="text" id="inputName" class="form-control" placeholder="Darbuotojo vardas" name="inputName" required>
 
                     <label for="inputSurname">Pavardė</label>
-                    <input type="text" id="inputSurname" class="form-control" placeholder="Darbuotojo pavardė" required>
+                    <input type="text" id="inputSurname" class="form-control" placeholder="Darbuotojo pavardė" name="inputSurname" required>
 
                     <label for="inputBranch">Padalinys</label>
-                    <input type="text" id="inputBranch" class="form-control" placeholder="Darbuotojo padalinys" required>
+                    <input type="text" id="inputBranch" class="form-control" placeholder="Darbuotojo padalinys" name="inputBranch" required>
 
                     <label for="inputPosition">Pozicija</label>
-                    <input type="text" id="inputPosition" class="form-control" placeholder="Darbuotojo pozicija" required>
+                    <input type="text" id="inputPosition" class="form-control" placeholder="Darbuotojo pozicija" name="inputPosition" required>
 
                     <label for="inputHireDate">Įdarbinta nuo</label>
-                    <input type="text" id="inputHireDate" class="form-control" placeholder="Darbuotojo įdarbinimo data" required>
+                    <input type="text" id="inputHireDate" class="form-control" placeholder="Darbuotojo įdarbinimo data" name="inputHireDate" required>
 
                     <label for="inputTerminateDate">Terminuota iki</label>
-                    <input type="text" id="inputTerminateDate" class="form-control" placeholder="Darbuotojo terminuotos sutarties pabaiga" required>
+                    <input type="text" id="inputTerminateDate" class="form-control" placeholder="Darbuotojo terminuotos sutarties pabaiga" name="inputTerminateDate" required>
 
                     <label for="inputSalary">Alga</label>
-                    <input type="text" id="inputSalary" class="form-control" placeholder="Darbuotojo alga" required>
+                    <input type="text" id="inputSalary" class="form-control" placeholder="Darbuotojo alga" name="inputSalary" required>
 
                     <label for="inputPassword">Slaptažodis</label>
-                    <input type="password" id="inputPassword" class="form-control" placeholder="Darbuotojo slaptažodis" required>
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Darbuotojo slaptažodis" name="inputPassword" required>
 
                     &nbsp;
 
                     <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Įvesti</button>
-                </form>
-            </div>
-            <div class="col-md-6">
-                <h2 class="text-center">Naujo darbuotojo įvedimas</h2><hr>
-                <form class="form-insert">
-                    <label>Pasirinkti darbuotojo portalo vardą</label>
-                    <div>
-                        <select class="selectpicker" data-live-search="true" style="display:block;">
-                            <option data-tokens="kornelija_dagyte">kornelija_dagyte</option>
-                            <option data-tokens="simona_daukante">simona_daukante</option>
-                            <option data-tokens="tautvydas_berzdelis">tautvydas_berzdelis</option>
-                        </select>
-                    </div>
-
-                    <label for="editName">Vardas</label>
-                    <input type="text" id="editName" class="form-control" placeholder="Darbuotojo vardas" required>
-
-                    <label for="editSurname">Pavardė</label>
-                    <input type="text" id="editSurname" class="form-control" placeholder="Darbuotojo pavardė" required>
-
-                    <label for="editBranch">Padalinys</label>
-                    <input type="text" id="editBranch" class="form-control" placeholder="Darbuotojo padalinys" required>
-
-                    <label for="editPosition">Pozicija</label>
-                    <input type="text" id="editPosition" class="form-control" placeholder="Darbuotojo pozicija" required>
-
-                    <label for="editHireDate">Įdarbinta nuo</label>
-                    <input type="text" id="editHireDate" class="form-control" placeholder="Darbuotojo įdarbinimo data" required>
-
-                    <label for="editTerminateDate">Terminuota iki</label>
-                    <input type="text" id="editTerminateDate" class="form-control" placeholder="Darbuotojo terminuotos sutarties pabaiga" required>
-
-                    <label for="editSalary">Alga</label>
-                    <input type="text" id="editSalary" class="form-control" placeholder="Darbuotojo alga" required>
-
-                    &nbsp;
-
-                    <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Redaguoti</button>
                 </form>
             </div>
         </div>
